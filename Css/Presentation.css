@@ -1,0 +1,68 @@
+ 
+.rounded-box {
+	width: 250px;
+	height: 80px;
+	background-color: lightblue;
+	border-radius: 100% 10px 100% 10px;
+}
+
+
+.containter{
+	width: 520px;
+	margin: auto;
+}
+
+.main-header {
+	height: 100px;
+	background-color: lightgray;
+	border-width: 1px;
+	border-style: solid;
+	border-color: gray;
+}
+
+.base {
+	padding-top: 50px;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 1px 2px 3px blue;
+}
+
+h1 {
+	font-size: 60px;
+	color: gray;
+	text-transform: capitalize;
+	text-shadow: 1px -1px 6px #000;
+}
+
+p strong {
+	font-size: 24px;
+}
+
+.right {
+	float: right;
+	width: 46%;
+	margin-top: -130px;
+}
+
+.left {
+	float: left;
+	width: 50%;
+}
+
+body {
+	margin: 0;
+	padding: 10px;
+}
+
+ul {
+	color: white;
+	background-color: steelblue;
+	font: Times;
+}
+
+h2,
+h3,
+h4 {
+	font-size: 22px;
+}
