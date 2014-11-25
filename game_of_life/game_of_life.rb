@@ -1,4 +1,3 @@
-#require 'rbconfig'
 require 'matrix' 
 
 class GameOfLife  
@@ -43,7 +42,6 @@ class GameOfLife
   end 
  
   def spinners
-#    @spinners ||= %w( | / -- \\ )
      @spinners ||= %w( * )
   end
   
@@ -129,11 +127,6 @@ class Cell
     dead? and live_neighbours.size == 3  
   end
  
-  
-  #   - Any live cell with fewer than two live neighbours dies, as if caused by under-population.
-  #   - Any live cell with two or three live neighbours lives on to the next generation.
-  #   - Any live cell with more than three live neighbours dies, as if by overcrowding.
-  #   - Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
   def next_life_state
     if under_populated? 
       die
